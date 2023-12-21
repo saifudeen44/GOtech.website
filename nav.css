@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+}
+.s-head {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+}
+.go{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+.center {
+    text-decoration: none;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.9s;
+    font-size: clamp(0.625rem, 3.3vw, 1.125rem);
+
+}
+.center:hover {
+    background-color: lightblue;
+    border-radius: 2px;
+    padding: 5px;
+    border: none;
+}
+.nav-b {
+    background-color: lightskyblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.video-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.v2 {
+ min-width: 100%;
+ min-height: 100%;
+ position: absolute;
+ transform: translateX(-50%) translateY(-50%);
+}
+.video-text {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    position: relative;
+    top: 40%;
+    left: 40%;
+    right: 40%;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+.go {
+    font-size: clamp(4rem, 3.5vw, 5rem);
+}
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.gotech-sum {
+    width: 80%;
+    text-align: center;
+    font-size: clamp(0.8rem, 3.5vw, 1.5rem);
+}

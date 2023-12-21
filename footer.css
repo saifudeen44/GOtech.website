@@ -1,0 +1,110 @@
+.pic-container {
+    width: clamp(10rem, 30vw, 12rem);
+    position: relative ;
+    left: 50%;
+    top: 500%;
+    margin-top: 120px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(5, 5, 7, 0.3);
+}
+.wapper {
+    width: 100%;
+    display: flex;
+    animation: slide 5s infinite;
+}
+.slide-sec {
+    margin-bottom: -80px;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);    
+    }
+    30%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img {
+    width: 100%;
+}
+
+.foot-con {
+    background-color: black;
+
+}
+.foot-t {
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+.f-go {
+   color: rgb(81, 154, 179);
+   font-weight: 500;
+}
+.global {
+    color: rgb(199, 194, 194);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.social img {
+    width: 20px;
+    margin: 20px;
+}
+
+.link-con {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.link-con h4 {
+    color: gray;
+    font-size: 17px;
+}
+.link-con a {
+    text-decoration: none;
+    text-align: start;
+    margin-left: -20px;
+    color: gray;
+    font-size: 14px;
+}
+.fs {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.copyright {
+    padding: 20px 0px;
+}
+.copyright p {
+    color: gray;
+    text-align: center;
+    font-size: 13px;
+}

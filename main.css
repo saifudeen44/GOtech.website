@@ -1,0 +1,71 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    column-gap: 50px;
+    margin-bottom: 40px;
+}
+.main-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap-reverse;
+    column-gap: 50px;
+}
+.about-us {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline rgb(81, 154, 179);
+    font-weight: bold;
+    margin: 50px;
+    color: rgb(81, 154, 179);
+    
+}
+.main-pic1 {
+    width: 330px;
+    height: 450px;
+    border-radius: 15px;
+}
+.main-pic2 {
+    width: 330px;
+    height: 450px;
+    border-radius: 15px;
+}
+.c-about {
+    width: 370px;
+    font-size: 19px;
+    text-align: justify;
+}
+.c-about2 {
+    width: 370px;
+    font-size: 20px;
+    text-align: justify;
+} 
+.blue {
+    color: rgb(81, 154, 179);
+    font-weight: bold;
+}
+
+.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.div-1 {
+    width: 300px;
+    text-align: center;
+}
+.mission {
+    width: 100px;
+}
+.div-1 p {
+    text-align: justify;
+    margin-top: 20px;
+}
+.div-1 h3 {
+    margin-top: 20px;
+    color: rgb(81, 154, 179); 
+}
